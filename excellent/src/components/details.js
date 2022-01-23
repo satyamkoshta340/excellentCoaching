@@ -31,14 +31,14 @@ export default function Details() {
             <div className='details' style={{backgroundImage: `url(${backImg})`}}>
                 <Navbar/>
                 <p className='inner-detail'>
-                    REAL DESIGNS <br/> BY REAL DESIGNERS FOR REAL <br/> PEOPLE
+                    ज्ञान प्राप्त करने के <br/> लिए अध्यन जरुरी है और <br/> बुद्धिमानी प्राप्त करने के लिए <br/> समझना जरुरी है
                 </p>
                 <p className='inner-detail-2'>
                     DISCOVER THE TALENT <br/> <button className='inner-detail-shop btn'>JOIN NOW</button>
                 </p>
             </div>
             <div className='sub-details'>
-                <p className='inner-detail-gallary' id='inner-detail-gallary'>Gallary</p>
+                <p className='inner-detail-gallary' id='inner-detail-gallary'>Gallery</p>
                 <div className='gallery-box'>
                     <button className='btn img-btn-left' onClick={()=>plusSlide(-1)}> &#10094; </button>
                     <img src={slides[currSlide]} alt='img' className='gallery-img' id='gallery-img'></img>
