@@ -1,0 +1,79 @@
+.navbar{
+    width: 100%;
+    min-height: 4rem;
+    /* background: rgb(85, 85, 85); */
+    /* background: rgb(255, 217, 0); */
+    background: azure;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+    align-items: center;
+    position: relative;
+    color: black;
+    border-bottom: 1px solid rgb(104, 104, 104);
+}
+
+.brand-name{
+    font-size: 1.5rem;
+    font-weight: 600;
+    /* color: brown; */
+}
+.nav-btn{
+    background: azure;
+    border: 1px solid black;
+    width: 35px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.bar{
+    width: 80%;
+    height: 2px;
+    background: black;
+    transition: transform 200ms linear ;
+}
+.nav-btn-active .bar1{
+    transform: translateY(300%) rotate(0.1turn);
+}
+.nav-btn-active .bar2{
+    display: none;
+}
+.nav-btn-active .bar3{
+    transform: translateY(-200%) rotate(-0.1turn);
+}
+
+.menu{
+    /* display: none; */
+    /* display: flex; */
+    color: azure ;
+    width: 100%;
+    flex-direction: column;
+    /* position: absolute; */
+    
+}
+.menu-item{
+    height: 3rem;
+    background: rgba(156, 156, 156, 0.295);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.logo{
+    width: 2.5rem;
+}
+
+@media (min-width: 1000px){
+    .nav-btn{
+        display: none;
+    }
+}
