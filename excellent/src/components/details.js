@@ -41,7 +41,7 @@ export default function Details() {
                 <p className='inner-detail-gallary' id='inner-detail-gallary'>Gallary</p>
                 <div className='gallery-box'>
                     <button className='btn img-btn-left' onClick={()=>plusSlide(-1)}> &#10094; </button>
-                    <img src={slides[currSlide]} className='gallery-img' id='gallery-img'></img>
+                    <img src={slides[currSlide]} alt='img' className='gallery-img' id='gallery-img'></img>
                     <button className='btn img-btn-right' onClick={()=>plusSlide(1)}> &#10095; </button>
                 </div>
             </div>
