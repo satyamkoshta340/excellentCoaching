@@ -26,7 +26,7 @@ export default function Navbar() {
         </div>
         <div className='menu' style={{display: menu ? 'flex' : 'none'}} >
             <div className='menu-item'>Study</div>
-            <a className='menu-item'>Gallery</a>
+            <div className='menu-item'>Gallery</div>
             <div className='menu-item'>GYm</div>
         </div>
         </div>
