@@ -16,7 +16,7 @@ export default function Navbar() {
     return (
         <div>
         <div className='navbar'>
-            <div> <img src={logo} className='logo'></img></div>
+            <div> <img src={logo} className='logo' alt='logo'></img></div>
             <div className='brand-name'>Excellent Coaching Centre</div>
             <button className='btn nav-btn' onClick={()=>{toggle(!menu)}}>
                 <div className='bar bar1'></div>
